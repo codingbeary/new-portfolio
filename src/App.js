@@ -1,9 +1,14 @@
-import "./App.css";
+import "./styles/App.css";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">hello</header>
+      <div className="container">
+        <Navbar />
+        <Hero />
+      </div>
     </div>
   );
 }

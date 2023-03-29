@@ -1,0 +1,27 @@
+.hero-wrapper {
+  background-color: #fffefc;
+}
+
+.heading {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: Playfiar Display;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+button {
+  margin: 10px;
+}
