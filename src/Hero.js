@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="heading">
             <h3>Hi, my name is</h3>
             <h2>Kinga Miśkiewicz</h2>
-            <h1>Junior frontend developer</h1>
+            <h1>Junior &lt;/frontend developer&gt;</h1>
             <span>
               <button className="btn btn-primary">explore my work </button>
               <button className="btn btn-primary">download resume</button>
@@ -18,7 +18,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="col-6">
-          <img src={unicorn} alt="unicorn" className="img-fluid" />
+          <img src={unicorn} alt="unicorn" className="img-fluid unicorn" />
         </div>
       </div>
     </div>

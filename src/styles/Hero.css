@@ -25,3 +25,24 @@ h3 {
 button {
   margin: 10px;
 }
+
+@media (max-width: 900px) {
+  .heading {
+    margin-left: 40px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .unicorn {
+    display: none;
+  }
+}

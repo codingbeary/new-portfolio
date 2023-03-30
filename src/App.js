@@ -2,6 +2,7 @@ import "./styles/App.css";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
+import Work from "./Work";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         <Navbar />
         <Hero />
         <About />
+        <Work />
       </div>
     </div>
   );
