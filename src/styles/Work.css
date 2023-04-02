@@ -1,0 +1,13 @@
+.work-wrapper {
+  background-color: #fffefc;
+}
+
+p {
+  padding: 30px;
+}
+.photo {
+  max-width: 90%;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 50px;
+}
