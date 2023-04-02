@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Work from "./Work";
 import Tools from "./Tools";
-import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -15,7 +14,6 @@ export default function App() {
         <About />
         <Work />
         <Tools />
-        <Footer />
       </div>
     </div>
   );

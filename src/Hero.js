@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Hero.css";
-import unicorn from "./images/unicorn.png";
+import artwork from "./images/artwork.png";
 
 export default function Hero() {
   return (
@@ -18,7 +18,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="col-6">
-          <img src={unicorn} alt="unicorn" className="img-fluid unicorn" />
+          <img src={artwork} alt="unicorn" className="img-fluid unicorn" />
         </div>
       </div>
     </div>
