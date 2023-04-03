@@ -1,7 +1,30 @@
 import React, { useRef } from "react";
 import "./styles/ContactForm.css";
+import emailjs from "@emailjs/browser";
 
-export default function ContactForm() {
+export const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_1v9kace",
+        "template_4tm7bep",
+        form.current,
+        "fQNbZ-76RPr11joUx"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="contact-wrapper">
       <div className="row">
@@ -18,11 +41,11 @@ export default function ContactForm() {
           </p>
         </div>
         <div className="col-6">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <label className="form-label">Name</label>
-            <input type="text" name="user_name" className="form-control" />
+            <input type="text" name="from_name" className="form-control" />
             <label className="form-label">Email</label>
-            <input type="email" name="user_email" className="form-control" />
+            <input type="email" name="from_email" className="form-control" />
             <label className="form-label">Message</label>
             <textarea name="message" className="form-control mb-5" />
             <input type="submit" value="Send" className="btn btn-primary" />
@@ -31,4 +54,4 @@ export default function ContactForm() {
       </div>
     </div>
   );
-}
+};
