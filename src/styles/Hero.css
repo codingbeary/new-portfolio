@@ -9,6 +9,7 @@
 
 h1 {
   font-size: 32px;
+  font-family: Poppins;
 }
 
 h2 {
@@ -17,9 +18,14 @@ h2 {
   font-weight: bold;
 }
 
-h3 {
-  font-size: 16px;
+.hero-heading {
+  font-size: 18px;
   margin-bottom: 0px;
+  color: #59b458;
+}
+
+.bold {
+  color: #7d9def;
 }
 
 button {
@@ -29,6 +35,8 @@ button {
 @media (max-width: 900px) {
   .heading {
     margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   h1 {
@@ -41,8 +49,5 @@ button {
   .btn {
     padding: 10px;
     font-size: 14px;
-  }
-  .unicorn {
-    display: none;
   }
 }

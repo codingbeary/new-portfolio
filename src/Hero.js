@@ -6,19 +6,25 @@ export default function Hero() {
   return (
     <div className="hero-wrapper">
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-6 order-md-1 order-2">
           <div className="heading">
-            <h3>Hi, my name is</h3>
+            <h3 className="hero-heading">Hi, my name is</h3>
             <h2>Kinga Miśkiewicz</h2>
-            <h1>Junior &lt;/frontend developer&gt;</h1>
+            <h1>
+              Junior <span className="bold">&lt;/frontend developer&gt;</span>
+            </h1>
             <span>
-              <button className="btn btn-primary">explore my work </button>
-              <button className="btn btn-primary">download resume</button>
+              <button className="btn btn-primary p-2 shadow">
+                explore my work{" "}
+              </button>
+              <button className="btn btn-outline-success p-2 shadow ">
+                download resume
+              </button>
             </span>
           </div>
         </div>
-        <div className="col-6">
-          <img src={artwork} alt="unicorn" className="img-fluid unicorn" />
+        <div className="col-md-6 order-md-2 order-1">
+          <img src={artwork} alt="unicorn" className="img-fluid header-image" />
         </div>
       </div>
     </div>
