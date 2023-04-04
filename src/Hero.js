@@ -14,7 +14,7 @@ export default function Hero() {
               Junior <span className="bold">&lt;/frontend developer&gt;</span>
             </h1>
             <span>
-              <button className="btn btn-primary p-2 shadow">
+              <button className="btn btn-success p-2 shadow">
                 explore my work{" "}
               </button>
               <button className="btn btn-outline-success p-2 shadow ">

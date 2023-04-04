@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin, FaHome } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary">
+    <nav className="navbar navbar-expand-md bg-body-tertiary sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand abs" href="#">
           <FaHome size="2em" />
