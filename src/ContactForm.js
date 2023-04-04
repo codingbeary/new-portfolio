@@ -41,6 +41,7 @@ export const ContactForm = () => {
             page about Yoga. The page utilizes JavaScript functions to create
             user interaction.
           </p>
+          <h3> mail to</h3>
         </div>
         <div className="col-6">
           <form ref={form} onSubmit={sendEmail}>
