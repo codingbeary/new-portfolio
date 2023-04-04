@@ -18,7 +18,7 @@ export default function About() {
   return (
     <div className="about-wrapper">
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-6">
           <h2>About me</h2>
           <p>
             I entered the world of front-end development by gaining some
@@ -27,54 +27,53 @@ export default function About() {
             page about Yoga. The page utilizes JavaScript functions to create
             user interaction.
           </p>
-          <br />
-          <div className="container">
-            <div className="row">
-              <div className="col-3">
-                <img src={html} alt="html" className="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={css} alt="html" classname="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={javascript} alt="html" classname="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={react} alt="html" classname="img-fluid" />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-3">
-                <img src={php} alt="php" className="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={mysql} alt="php" className="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={figma} alt="php" className="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={photoshop} alt="php" className="img-fluid" />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-3">
-                <img src={slack} alt="php" className="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={vscode} alt="php" className="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={bootstrap} alt="php" className="img-fluid" />
-              </div>
-              <div className="col-3">
-                <img src={github} alt="php" className="img-fluid" />
-              </div>
-            </div>
+        </div>
+        <div className="col-md-6">
+          <img src={portrait} alt="portrait" className="img-fluid portrait" />
+        </div>
+      </div>
+
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-4 col-md-2">
+            <img src={html} alt="html" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={css} alt="html" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={javascript} alt="html" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={react} alt="html" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={php} alt="php" className="img-flui logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={mysql} alt="php" className="img-fluid logo" />
           </div>
         </div>
-        <div className="col-6">
-          <img src={portrait} alt="portrait" className="img-fluid portrait" />
+        <br />
+        <div className="row">
+          <div className="col-4 col-md-2">
+            <img src={figma} alt="php" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={photoshop} alt="php" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={slack} alt="php" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={vscode} alt="php" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={bootstrap} alt="php" className="img-fluid logo" />
+          </div>
+          <div className="col-4 col-md-2">
+            <img src={github} alt="php" className="img-fluid logo" />
+          </div>
         </div>
       </div>
     </div>

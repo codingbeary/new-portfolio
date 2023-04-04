@@ -8,3 +8,11 @@
   width: 80%;
   margin-left: 80px;
 }
+.logo {
+  max-width: 100%;
+}
+@media (max-width: 960px) {
+  .about-wrapper {
+    padding: 30px;
+  }
+}
