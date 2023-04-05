@@ -3,6 +3,11 @@ import "./styles/Hero.css";
 import artwork from "./images/artwork.png";
 
 export default function Hero() {
+  const handleButtonClick = () => {
+    const workSection = document.getElementById("work");
+    workSection.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="hero-wrapper" id="home">
       <div className="row">
@@ -14,7 +19,10 @@ export default function Hero() {
               Junior <span className="bold">&lt;/frontend developer&gt;</span>
             </h1>
             <span>
-              <button className="btn btn-success p-2 shadow">
+              <button
+                className="btn btn-success p-2 shadow"
+                onClick={handleButtonClick}
+              >
                 explore my work{" "}
               </button>
               <button className="btn btn-outline-success p-2 shadow ">
@@ -27,6 +35,9 @@ export default function Hero() {
           <img src={artwork} alt="unicorn" className="img-fluid header-image" />
         </div>
       </div>
+      <a href="#about">
+        <div className="scroll-down"></div>
+      </a>
     </div>
   );
 }

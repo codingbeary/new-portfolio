@@ -4,3 +4,7 @@
   padding: 5px;
   color: white;
 }
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active ~ .nav-link {
+  color: white;
+}
