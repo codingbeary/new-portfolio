@@ -4,7 +4,7 @@ import artwork from "./images/artwork.png";
 
 export default function Hero() {
   return (
-    <div className="hero-wrapper">
+    <div className="hero-wrapper" id="home">
       <div className="row">
         <div className="col-md-6 order-md-1 order-2">
           <div className="heading">

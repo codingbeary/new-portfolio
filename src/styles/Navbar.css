@@ -1,0 +1,6 @@
+.navbar .active {
+  background-color: #b8bcaf;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}

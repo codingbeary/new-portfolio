@@ -16,7 +16,7 @@ import portrait from "./images/portrait.jpg";
 
 export default function About() {
   return (
-    <div className="about-wrapper">
+    <div className="about-wrapper" id="about">
       <div className="row">
         <div className="col-md-6">
           <h2>About me</h2>

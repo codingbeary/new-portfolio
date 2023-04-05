@@ -29,7 +29,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="contact-wrapper">
+    <div className="contact-wrapper" id="contact">
       <div className="row">
         <div className="col-6">
           <h4>Let's talk</h4>

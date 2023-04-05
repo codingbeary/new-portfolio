@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "./styles/Navbar.css";
+import { ScrollSpy } from "bootstrap";
 import { FaGithub, FaTwitter, FaLinkedin, FaHome } from "react-icons/fa";
 
 export default function Navbar() {
+  useEffect(() => {
+    const scrollSpy = new ScrollSpy(document.body, {
+      target: "#navbar",
+    });
+  }, []);
+
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary sticky-top">
+    <nav
+      id="navbar"
+      className="navbar navbar-expand-md bg-body-tertiary sticky-top"
+    >
       <div className="container-fluid">
-        <a className="navbar-brand abs" href="#">
+        <a className="navbar-brand abs" href="#home">
           <FaHome size="2em" />
         </a>
         <button
@@ -18,23 +29,19 @@ export default function Navbar() {
         </button>
         <div className="navbar-collapse collapse" id="collapseNavbar">
           <ul className="navbar-nav">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="//codeply.com">
+              <a className="nav-link" href="#work">
                 Work
               </a>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link" href="#myAlert" data-bs-toggle="collapse">
-                Tools
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#myAlert" data-bs-toggle="collapse">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>

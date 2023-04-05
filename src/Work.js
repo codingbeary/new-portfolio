@@ -7,7 +7,7 @@ import worldClock from "./images/worldClock.png";
 
 export default function Work() {
   return (
-    <div className="work-wrapper">
+    <div className="work-wrapper" id="work">
       <h4 className="text-center muted">my recent works</h4>
       <div className="row">
         <div className="col-6">
