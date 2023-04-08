@@ -31,19 +31,23 @@ export const ContactForm = () => {
   return (
     <div className="contact-wrapper" id="contact">
       <div className="row">
-        <div className="col-6">
-          <h4>Let's talk</h4>
+        <div className="col-md-6">
           <h2> Let's work together!</h2>
-          <p>
-            I entered the world of front-end development by gaining some
-            knowledge in HTML, CSS, and JavaScript. I used my knowledge of these
-            languages, along with my new skills in VS Code, to build a landing
-            page about Yoga. The page utilizes JavaScript functions to create
-            user interaction.
-          </p>
-          <h3> mail to</h3>
+          <p>Want to work together or have any questions?</p>
+          <strong>
+            <p>Get in touch or shoot me an email directly on</p>{" "}
+          </strong>
+          <h3>
+            {" "}
+            <a
+              href="mailto:kinga.miskiewicz.dev@gmail.com
+"
+            >
+              kinga.miskiewicz.dev@gmail.com
+            </a>
+          </h3>
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <form ref={form} onSubmit={sendEmail}>
             <label className="form-label">Name</label>
             <input type="text" name="from_name" className="form-control" />

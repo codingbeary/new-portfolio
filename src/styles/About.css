@@ -1,6 +1,18 @@
 .about-wrapper {
   background-color: #f6f6f6;
-  padding: 100px;
+  padding: 80px;
+}
+
+.about-wrapper h3 {
+  font-size: 36px;
+  font-weight: 300;
+}
+.about-wrapper p {
+  padding: 0;
+  line-height: 1.5;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: poppins;
 }
 
 .portrait {
@@ -14,5 +26,9 @@
 @media (max-width: 960px) {
   .about-wrapper {
     padding: 30px;
+  }
+  .portrait {
+    margin-top: 20px;
+    margin: 30px;
   }
 }

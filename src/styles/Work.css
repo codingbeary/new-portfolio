@@ -1,13 +1,26 @@
 .work-wrapper {
   background-color: #fffefc;
 }
-
-p {
+.work-wrapper h3 {
+  font-family: poppins;
+  font-weight: 300px;
+}
+.work-wrapper p {
   padding: 30px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: poppins;
+}
+.work-wrapper strong {
+  margin-left: 30px;
 }
 .photo {
   max-width: 90%;
   margin-top: 40px;
   padding: 20px;
   border-radius: 50px;
+}
+.work-wrapper button {
+  padding: 15px;
+  margin-top: 40px;
 }

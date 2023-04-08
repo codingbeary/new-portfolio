@@ -25,9 +25,11 @@ export default function Hero() {
               >
                 explore my work{" "}
               </button>
-              <button className="btn btn-outline-success p-2 shadow ">
-                download resume
-              </button>
+              <a href="/resume.pdf" alt="resume" download>
+                <button className="btn btn-outline-success p-2 shadow ">
+                  download resume
+                </button>
+              </a>
             </span>
           </div>
         </div>
