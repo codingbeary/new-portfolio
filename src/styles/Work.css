@@ -19,8 +19,14 @@
   margin-top: 40px;
   padding: 20px;
   border-radius: 50px;
+  margin-left: 20px;
 }
 .work-wrapper button {
   padding: 15px;
   margin-top: 40px;
+}
+@media (max-width: 960px) {
+  .work-wrapper h3 {
+    margin-top: 30px;
+  }
 }

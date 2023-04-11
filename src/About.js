@@ -21,19 +21,22 @@ export default function About() {
         <div className="col-md-6">
           <h3>About me</h3>
           <p>
-            I'm a dedicated problem solver and perfectionist committed to
-            self-improvement, interested in IT and everything in its orbit. I
-            completed all SheCodes workshops to pursue my dream career as a
-            front-end developer, I'm keen to gain more experience in the field.
-            I'm open to working remotely and have flexible hours. When I'm not
-            coding you can find me at my desk drawing, reading or working on my
-            language skills (currently speaking Polish, English, Swedish and a
-            bit of Spanish)
+            Hi, my name is Kinga and I'm a self-taught junior front-end
+            developer based in Łódź, Poland. I'm a dedicated problem solver
+            committed to self-improvement, interested in IT and everything in
+            its orbit. I'm eager to expand my knowledge in this field in a
+            supportive team environment.I'm open to working remotely and have
+            flexible hours.
+            <br />
+            <br />
+            Outside of work, I enjoy graphic design, reading, making
+            illustrations, digital painting, and yoga. I'm also an aspiring
+            polyglot, currently speaking Polish, English, Swedish, and Spanish.
           </p>
           <br />
           <div className="container mt-5">
             <h5 className="text-muted text-center mb-4">
-              &lt;tools & languages I use&gt;
+              &lt;tools & technologies I use&gt;
             </h5>
             <div className="row">
               <div className="col-4 col-md-2">

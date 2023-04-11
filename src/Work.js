@@ -21,7 +21,7 @@ export default function Work() {
             fully-functioning weather app.
           </p>
           <strong className="text-muted">
-            Built with: HTML, CSS, JavaScript
+            Built with: HTML, CSS, JavaScript, API's
           </strong>
           <div className="row">
             <div className="col-md-12 text-center">
@@ -49,7 +49,7 @@ export default function Work() {
         <div className="col-md-6">
           <img
             src={weatherApp}
-            alt="weather app"
+            alt="weather app project"
             className="img-fluid photo shadow"
           />
         </div>
@@ -66,19 +66,35 @@ export default function Work() {
         <div className="col-md-6">
           <h3 className="text-center">Iceland landing page</h3>
           <p className="text-muted">
-            I entered the world of front-end development by gaining some
-            knowledge in HTML, CSS, and JavaScript. I used my knowledge of these
-            languages, along with my new skills in VS Code, to build a landing
-            page about Yoga. The page utilizes JavaScript functions to create
-            user interaction.
+            In order to combine my love for Nordic countries and web development
+            I build an Iceland landing page. I used Bootstrap to make it look
+            better and embed a few elements like maps and Instagram posts. It
+            also helped me improve my skills in HTML, CSS, and responsive web
+            development.
           </p>
-          <strong className="text-muted">Built with: HTML, CSS, React</strong>
+          <strong className="text-muted">
+            Built with: HTML, CSS, Bootstrap, Responsive Web Development{" "}
+          </strong>
           <div className="row">
             <div className="col-md-12 text-center">
-              <button className="btn btn-success shadow">Visit Website</button>
-              <button className="btn btn-outline-success shadow">
-                View Code
-              </button>
+              <a
+                href="https://iceland-landing-page.netlify.app/"
+                alt="Iceland landing page"
+                target="_blank"
+              >
+                <button className="btn btn-success shadow">
+                  Visit Website
+                </button>
+              </a>
+              <a
+                href="https://github.com/kiyooteru/iceland-project"
+                alt="Iceland landing page"
+                target="_blank"
+              >
+                <button className="btn btn-outline-success shadow">
+                  View Code
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -95,10 +111,24 @@ export default function Work() {
           <strong className="text-muted">Built with: HTML, CSS, React</strong>
           <div className="row">
             <div className="col-md-12 text-center">
-              <button className="btn btn-success shadow">Visit Website</button>
-              <button className="btn btn-outline-success shadow">
-                View Code
-              </button>
+              <a
+                href="https://dictionary-app-kinga-miskiewicz.netlify.app/"
+                alt="Dictionary App"
+                target="_blank"
+              >
+                <button className="btn btn-success shadow">
+                  Visit Website
+                </button>
+              </a>
+              <a
+                href="https://github.com/kiyooteru/dictionary-project"
+                alt="Dictionary Project"
+                target="_blank"
+              >
+                <button className="btn btn-outline-success shadow">
+                  View Code
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -121,19 +151,33 @@ export default function Work() {
         <div className="col-md-6">
           <h3 className="text-center">World Clock App</h3>
           <p className="text-muted">
-            I entered the world of front-end development by gaining some
-            knowledge in HTML, CSS, and JavaScript. I used my knowledge of these
-            languages, along with my new skills in VS Code, to build a landing
-            page about Yoga. The page utilizes JavaScript functions to create
-            user interaction.
+            I build a World Clock App in order to improve my JavaScript skills
+            and work with dates and times in different time zones using the
+            Moment.js library.
           </p>
-          <strong className="text-muted">Built with: HTML, CSS, React</strong>
+          <strong className="text-muted">
+            Built with: HTML, CSS, JavaScript{" "}
+          </strong>
           <div className="row">
             <div className="col-md-12 text-center">
-              <button className="btn btn-success shadow">Visit Website</button>
-              <button className="btn btn-outline-success shadow">
-                View Code
-              </button>
+              <a
+                href="https://world-clock-app-kinga-miskiewicz.netlify.app/"
+                alt="World Clock App"
+                target="_blank"
+              >
+                <button className="btn btn-success shadow">
+                  Visit Website
+                </button>
+              </a>
+              <a
+                href="https://github.com/kiyooteru/world-clock"
+                alt="World Clock App"
+                target="_blank"
+              >
+                <button className="btn btn-outline-success shadow">
+                  View Code
+                </button>
+              </a>
             </div>
           </div>
         </div>

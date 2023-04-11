@@ -32,30 +32,50 @@ export const ContactForm = () => {
     <div className="contact-wrapper" id="contact">
       <div className="row">
         <div className="col-md-6">
-          <h2> Let's work together!</h2>
-          <p>Want to work together or have any questions?</p>
-          <strong>
-            <p>Get in touch or shoot me an email directly on</p>{" "}
-          </strong>
-          <h3>
-            {" "}
-            <a
-              href="mailto:kinga.miskiewicz.dev@gmail.com
+          <div className="contact-form">
+            <h2> Let's work together!</h2>
+            <p>Want to work together or have any questions?</p>
+            <strong>
+              <p>Get in touch or shoot me an email directly on</p>{" "}
+            </strong>
+            <h3>
+              {" "}
+              <a
+                href="mailto:kinga.miskiewicz.dev@gmail.com
 "
-            >
-              kinga.miskiewicz.dev@gmail.com
-            </a>
-          </h3>
+              >
+                kinga.miskiewicz.dev@gmail.com
+              </a>
+            </h3>
+          </div>
         </div>
         <div className="col-md-6">
-          <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail} className="shadow">
             <label className="form-label">Name</label>
-            <input type="text" name="from_name" className="form-control" />
+            <input
+              type="text"
+              name="from_name"
+              className="form-control"
+              placeholder="Enter your name..."
+            />
             <label className="form-label">Email</label>
-            <input type="email" name="form_email" className="form-control" />
+            <input
+              type="email"
+              name="form_email"
+              className="form-control"
+              placeholder="Enter your email..."
+            />
             <label className="form-label">Message</label>
-            <textarea name="message" className="form-control mb-5" />
-            <input type="submit" value="Send" className="btn btn-primary" />
+            <textarea
+              name="message"
+              className="form-control mb-5"
+              placeholder="Enter your message..."
+            />
+            <input
+              type="submit"
+              value="Send"
+              className="btn btn-success shadow w-100"
+            />
           </form>
         </div>
       </div>

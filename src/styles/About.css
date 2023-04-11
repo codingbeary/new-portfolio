@@ -31,4 +31,7 @@
     margin-top: 20px;
     margin: 30px;
   }
+  .about-wrapper h3 {
+    margin: 0;
+  }
 }
