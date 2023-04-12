@@ -61,7 +61,7 @@ export const ContactForm = () => {
             <label className="form-label">Email</label>
             <input
               type="email"
-              name="form_email"
+              name="from_email"
               className="form-control"
               placeholder="Enter your email..."
             />
