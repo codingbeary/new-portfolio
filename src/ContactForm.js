@@ -57,6 +57,7 @@ export const ContactForm = () => {
               name="from_name"
               className="form-control"
               placeholder="Enter your name..."
+              required
             />
             <label className="form-label">Email</label>
             <input
@@ -64,12 +65,14 @@ export const ContactForm = () => {
               name="from_email"
               className="form-control"
               placeholder="Enter your email..."
+              required
             />
             <label className="form-label">Message</label>
             <textarea
               name="message"
               className="form-control mb-5"
               placeholder="Enter your message..."
+              required
             />
             <input
               type="submit"
