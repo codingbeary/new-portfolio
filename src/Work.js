@@ -56,7 +56,7 @@ export default function Work() {
       </div>
 
       <div className="row mb-5">
-        <div className="col-md-6">
+        <div className="col-md-6 order-md-2 order-1">
           <img
             src={icelandPage}
             alt="Iceland landing page"
@@ -73,7 +73,7 @@ export default function Work() {
             development.
           </p>
           <strong className="text-muted">
-            Built with: HTML, CSS, Bootstrap, Responsive Web Development{" "}
+            Built with: HTML, CSS, Bootstrap, Responsive Web Development
           </strong>
           <div className="row">
             <div className="col-md-12 text-center">
@@ -141,7 +141,7 @@ export default function Work() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 order-md-2 order-1">
           <img
             src={worldClock}
             alt="weather app"

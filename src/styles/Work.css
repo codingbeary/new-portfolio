@@ -13,6 +13,7 @@
 }
 .work-wrapper strong {
   margin-left: 30px;
+  margin-right: 30px;
 }
 .photo {
   max-width: 90%;
@@ -28,5 +29,11 @@
 @media (max-width: 960px) {
   .work-wrapper h3 {
     margin-top: 30px;
+    text-align: center;
+  }
+  .work-wrapper strong {
+    font-size: 14px;
+    text-align: center;
+    display: block;
   }
 }
