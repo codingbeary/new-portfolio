@@ -56,14 +56,14 @@ export default function Work() {
       </div>
 
       <div className="row mb-5">
-        <div className="col-md-6 order-md-2 order-1">
+        <div className="col-md-6 order-md-1 order-2">
           <img
             src={icelandPage}
             alt="Iceland landing page"
             className="img-fluid photo shadow"
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 order-md-2 order-1">
           <h3 className="text-center">Iceland landing page</h3>
           <p className="text-muted">
             In order to combine my love for Nordic countries and web development
@@ -141,14 +141,14 @@ export default function Work() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-6 order-md-2 order-1">
+        <div className="col-md-6 order-md-1 order-2">
           <img
             src={worldClock}
             alt="weather app"
             className="img-fluid photo shadow mb-5"
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 order-md-2 order-1">
           <h3 className="text-center">World Clock App</h3>
           <p className="text-muted">
             I build a World Clock App in order to improve my JavaScript skills
