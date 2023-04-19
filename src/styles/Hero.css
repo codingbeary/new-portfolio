@@ -101,3 +101,15 @@ button {
     font-size: 14px;
   }
 }
+
+@media (max-width: 1200px) {
+  .btn {
+    margin-bottom: 40px;
+  }
+  .hero-wrapper h1 {
+    font-size: 20px;
+  }
+  .hero-wrapper h2 {
+    font-size: 45px;
+  }
+}
